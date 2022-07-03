@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>Notes for CS229</title>
+    <link href="/2022/07/03/ML-notes-CS229/"/>
+    <url>/2022/07/03/ML-notes-CS229/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Notes-for-CS229"><a href="#Notes-for-CS229" class="headerlink" title="Notes for CS229"></a>Notes for CS229</h1><blockquote><p>online machine learning course from Stanford)</p></blockquote><h2 id="Lecture-1-Course-Overview"><a href="#Lecture-1-Course-Overview" class="headerlink" title="Lecture 1 Course Overview"></a>Lecture 1 Course Overview</h2><p>Main topics of this class:</p><ul><li>supervised learning: learn from being given “right answers”<ul><li>regression: <ul><li>value to predict is continuous (can be any value in a range)</li><li>predict a number from infinitely many possible outputs</li></ul></li><li>classification<ul><li>value to predict is discrete (E.g.: 0 or 1 )</li><li>predict categories from small number of possible outputs</li></ul></li></ul></li><li>unsupervised learning: find something interesting in unlabeled data<ul><li>clustering: take data without labels and try to automatically group them into clusters</li><li>anomaly detection: find unusual data points</li><li>dimensionality reduction: compress data using fewer numbers</li></ul></li><li>systematic learning strategy</li><li>deep learning</li><li>reinforcement learning</li></ul><!-- ## Lecture 2 Linear Regression and Gradient Descent -->]]></content>
+    
+    
+    <categories>
+      
+      <category>Study</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>machine learning</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>CtrlF</title>
     <link href="/2022/07/02/CtrlF/"/>
     <url>/2022/07/02/CtrlF/</url>
@@ -14,8 +39,6 @@
     <categories>
       
       <category>Projects</category>
-      
-      <category>Web Application</category>
       
     </categories>
     
