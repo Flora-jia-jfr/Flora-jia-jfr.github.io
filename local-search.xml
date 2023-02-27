@@ -4,50 +4,13 @@
   
   
   <entry>
-    <title>Notes for CS229</title>
-    <link href="/2022/07/03/ML-notes-CS229/"/>
-    <url>/2022/07/03/ML-notes-CS229/</url>
+    <title>CSCI499</title>
+    <link href="/2022/10/17/CSCI499/"/>
+    <url>/2022/10/17/CSCI499/</url>
     
-    <content type="html"><![CDATA[<h1 id="Notes-for-CS229"><a href="#Notes-for-CS229" class="headerlink" title="Notes for CS229"></a>Notes for CS229</h1><blockquote><p>my notes for online machine learning course from Stanford</p></blockquote><h2 id="Lecture-1-Course-Overview"><a href="#Lecture-1-Course-Overview" class="headerlink" title="Lecture 1 Course Overview"></a>Lecture 1 Course Overview</h2><p>Main topics of this class:</p><ul><li>supervised learning: learn from being given “right answers”<ul><li>regression: <ul><li>value to predict is continuous (can be any value in a range)</li><li>predict a number from infinitely many possible outputs</li></ul></li><li>classification<ul><li>value to predict is discrete (E.g.: 0 or 1 )</li><li>predict categories from small number of possible outputs</li></ul></li></ul></li><li>unsupervised learning: find something interesting in unlabeled data<ul><li>clustering: take data without labels and try to automatically group them into clusters</li><li>anomaly detection: find unusual data points</li><li>dimensionality reduction: compress data using fewer numbers</li></ul></li><li>systematic learning strategy</li><li>deep learning</li><li>reinforcement learning</li></ul><h2 id="Lecture-2-Linear-Regression-and-Gradient-Descent"><a href="#Lecture-2-Linear-Regression-and-Gradient-Descent" class="headerlink" title="Lecture 2 Linear Regression and Gradient Descent"></a>Lecture 2 Linear Regression and Gradient Descent</h2><pre><code class=" mermaid">graph TDA[training set]B[learning algorithm]C[hypothesis]A --&gt; B --&gt; C</code></pre><pre><code class=" mermaid">graph LRC[hypothesis]D[input parameters]    E[estimated output]D --&gt; C --&gt; E</code></pre>]]></content>
-    
-    
-    <categories>
-      
-      <category>Study</category>
-      
-    </categories>
+    <content type="html"><![CDATA[<h1 id="Seq2Seq"><a href="#Seq2Seq" class="headerlink" title="Seq2Seq"></a>Seq2Seq</h1><h2 id="1-Sequence-to-sequence-models"><a href="#1-Sequence-to-sequence-models" class="headerlink" title="1. Sequence-to-sequence models"></a>1. Sequence-to-sequence models</h2><h2 id="2-Encoder-Decoder-attention"><a href="#2-Encoder-Decoder-attention" class="headerlink" title="2. Encoder-Decoder attention"></a>2. Encoder-Decoder attention</h2><h2 id="3-Transformer-networks"><a href="#3-Transformer-networks" class="headerlink" title="3. Transformer networks"></a>3. Transformer networks</h2>]]></content>
     
     
-    <tags>
-      
-      <tag>machine learning</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>CtrlF</title>
-    <link href="/2022/07/02/CtrlF/"/>
-    <url>/2022/07/02/CtrlF/</url>
-    
-    <content type="html"><![CDATA[<p>This is an introduction to the project CtrlF</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>Projects</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>project</tag>
-      
-    </tags>
     
   </entry>
   
@@ -67,6 +30,31 @@
       
     </categories>
     
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>MATH 545 Introduction to Time Series</title>
+    <link href="/2022/02/26/MATH545_time_series/"/>
+    <url>/2022/02/26/MATH545_time_series/</url>
+    
+    <content type="html"><![CDATA[<h1 id="MATH-545-Introduction-to-Time-Series"><a href="#MATH-545-Introduction-to-Time-Series" class="headerlink" title="MATH 545 Introduction to Time Series"></a>MATH 545 Introduction to Time Series</h1>]]></content>
+    
+    
+    <categories>
+      
+      <category>Study</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>time series</tag>
+      
+    </tags>
     
   </entry>
   

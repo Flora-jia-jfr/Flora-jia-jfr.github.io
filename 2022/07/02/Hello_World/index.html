@@ -355,15 +355,21 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/07/02/CtrlF/" title="CtrlF">
+                      <a href="/2022/10/17/CSCI499/" title="CSCI499">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">CtrlF</span>
+                        <span class="hidden-mobile">CSCI499</span>
                         <span class="visible-mobile">Previous</span>
                       </a>
                     
                   </article>
                   <article class="post-next col-6">
                     
+                    
+                      <a href="/2022/02/26/MATH545_time_series/" title="MATH 545 Introduction to Time Series">
+                        <span class="hidden-mobile">MATH 545 Introduction to Time Series</span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </article>
                 </div>
@@ -414,6 +420,12 @@
 
 
   
+
+
+  
+  
+
+
 
 
 
@@ -580,6 +592,40 @@
 
 
   <script>Fluid.plugins.imageCaption();</script>
+
+  
+      <script>
+        if (!window.MathJax) {
+          window.MathJax = {
+            tex    : {
+              inlineMath: { '[+]': [['$', '$']] }
+            },
+            loader : {
+              load: ['ui/lazy']
+            },
+            options: {
+              renderActions: {
+                insertedScript: [200, () => {
+                  document.querySelectorAll('mjx-container').forEach(node => {
+                    let target = node.parentNode;
+                    if (target.nodeName.toLowerCase() === 'li') {
+                      target.parentNode.classList.add('has-jax');
+                    }
+                  });
+                }, '', false]
+              }
+            }
+          };
+        } else {
+          MathJax.startup.document.state(0);
+          MathJax.texReset();
+          MathJax.typeset();
+          MathJax.typesetPromise();
+        }
+      </script>
+    
+
+  <script  src="https://lib.baomitu.com/mathjax/3.2.1/es5/tex-mml-chtml.js" ></script>
 
   <script  src="/js/local-search.js" ></script>
 
